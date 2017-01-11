@@ -1,0 +1,114 @@
+*
+{
+	margin:0;
+	padding:0;
+
+}
+
+body
+{
+	font-family: 'Arial', sans-serif;
+	line-height: 1.6em;
+	font-size: 14px;
+	background:#f4f4f4;
+}
+
+.container
+{
+	
+	width: 970px;
+	margin:15px auto;
+	text-align: center;
+	position: relative;
+}
+
+.slider
+{
+	width: 100%;
+	float: left;
+	background-color: yellow;
+	position: relative;
+	
+	-moz-box-shadow: 0 0 3px #aaaaaa;
+	-webkit-box-shadow: 0 0 3px #aaaaaa;
+	box-shadow: 0 0 3px #aaaaaa;
+	background: url(panel.jpg) repeat-x bottom center #ffffff;
+	
+}
+header h2
+{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.slides
+{
+	width: 100%;
+	height: 240px;
+	float: left;
+	overflow: hidden;
+
+}
+
+.slide
+{
+	width: 970px;
+	float: left;
+}
+
+.slide.open
+{
+	margin-top
+}
+.thumbnails
+{
+	width: 100%;
+	background:url(separator.png) no-repeat right;
+	height:45px;
+	float: left;
+}
+
+.thumbnails ul
+{
+	list-style-type: none;
+
+	
+}
+
+.thumbnails ul a 
+{
+	text-decoration: none;
+	background: url(seperator.png) no-repeat right;
+}
+
+.thumbnails ul li
+{
+	width: 60px;
+	overflow: hidden;
+	padding-top: 10px;
+	height:45px;
+	display: inline-block;
+	border:none;
+}
+
+.thumbnails ul a:hover
+{
+	text-decoration: underline;
+}
+
+.thumbnails ul li.active, li.active:hover
+{
+	background: url(active_bg.png) no-repeat;
+}
+
+.thumbnails li.active
+{
+	cursor: default;
+}
+
+.sep
+{
+	width: 2px;
+	background: url(seperator.png) no-repeat right;
+	margin-right: -2px;
+}

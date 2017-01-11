@@ -1,0 +1,116 @@
+<?php include 'database.php';?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Aditya Chakravarthy</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="jquery2.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<div class="container">
+		<!-- <div class="header">
+			<h2>My Portfolio</h2>
+		</div> <!--header closed--> 		
+			<div class="wrapper">
+				<div class="navbar">
+					<ul>
+						<li><a href="../aboutme/aboutme.html"><img src="images/about me.png"><span>About me</span></a>
+								<ul>
+									<li><a href="#"><b>about me</b></a></li>
+									<li><a href="#"><b>My Hobbies</b></a></li>
+									<li><a href="#"><b>Sports</b></a></li>
+									<li><a href="#"><b>My Testimonials</b></a></li>
+								</ul>
+						</li>
+						<li> <a href="../portfolio/potfolio.html"><img src="images/portfolio.jpg"><span>My Folio</a></span>
+							<ul>
+										<li><a href="#"><b>The Quiz Project</b></a></li>
+										<li><a href="#"><b>Content Slider project</b></a></li>
+										<li><a href="#"><b>Jquery Apple slider</b></a></li>
+										<li><a href="#"><b>Sample FAQ Project</b></a></li>
+							</ul>
+						</li>
+						<li><a href="../resume/resume.html"><img src="images/resume.jpg"><span>Resume</span></a>
+
+							<ul>
+									<li><a href="#"><b>about me</b></a></li>
+									<li><a href="#"><b>My Hobbies</b></a></li>
+									<li><a href="#"><b>Sports</b></a></li>
+									<li><a href="#"><b>My Testimonials</b></a></li>
+							</ul>
+						</li>
+						<li> <a href="../contact/contact.html"><img src="images/contact me.jpg"><span>Contact me</span></a>
+							<ul>
+									<li><a href="#"><b>about me</b></a></li>
+									<li><a href="#"><b>My Hobbies</b></a></li>
+									<li><a href="#"><b>Sports</b></a></li>
+									<li><a href="#"><b>My Testimonials</b></a></li>
+							</ul>
+
+						</li>
+						<li><a href="../chat/chat.html"><img src="images/chat.jpeg"><span>Chat</span></a>
+								<ul>
+										<li><a href="#"><b>about me</b></a></li>
+										<li><a href="#"><b>My Hobbies</b></a></li>
+										<li><a href="#"><b>Sports</b></a></li>
+										<li><a href="#"><b>My Testimonials</b></a></li>
+								</ul>
+						</li>	
+
+					</ul>
+				</div> <!--navbar closed-->
+
+				<div class="leftside">
+					<div class="myimage">
+						<img src="images/mypic (2).jpg">
+					</div> <!--myimage closed-->
+				
+
+					<div class="social">
+						<ul>
+							<li><a href="#"><img src="images/facebook.png">Facebook</a></li>
+							<li><a href="#"><img src="images/gmail.jpg">Gmail</a></li>
+							<li><a href="#"><img src="images/twitter.jpg">Twitter</a></li>
+						</ul>
+						
+					</div> <!--social closed-->
+				</div> <!--leftside closed-->
+
+				<form action="action.php" method="post">
+					<div class="contactform">
+						<label>Contact Name:</label><input type="text" name="contactname" id="contactname">
+						<label>Your E-mail Address:</label><input type="text" name="email" id="email">
+						<label>Reason for contact:</label>
+							<select>
+									  <option value="HTML">HTML query</option>
+									  <option value="CSS">Css query</option>
+									  <option value="Jquery">Jquery query</option>
+									  <option value="Other">Other</option>
+							</select>
+
+
+						<label>Message:</label>
+						<textarea name="message" placeholder="Enter your message here..."></textarea> 
+					</div> <!--contactform closed-->
+					<button id="submit">Submit</button>
+				</form>
+
+			</div> <!--wrapper closed-->
+
+			
+	</div> <!--container closed-->
+	<div class="footer">
+				<div class="fimage">
+					<img src="images/footer.jpg">
+				</div> <!--fimageclosed-->
+				<div class="fcontent">
+					<p>Intereseted in designing websites Quick contact Mobile number <a href="#" class="reveal">Click to reveal</a>
+					<span id="phonenumber">+61432454888</span></p><br>
+					<p>Copyrights reserved @2016</p>
+				</div><!--fcontent closed-->
+	</div> <!--footer closed-->
+	
+</body>
+</html>
